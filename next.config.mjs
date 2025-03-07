@@ -7,7 +7,8 @@ const nextConfig = {
   // Disable server-side features since we're doing static export
   trailingSlash: true,
   // This ensures correct asset paths when deployed to GitHub Pages
-  basePath: '',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || ''
 };
 
 export default nextConfig;
