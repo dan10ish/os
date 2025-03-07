@@ -487,7 +487,7 @@ function Progress24(props) {
       const length = pathRef.current.getTotalLength();
       setPathLength(length);
 
-      // Initially set the stroke-dasharray and stroke-dashoffset
+      // Update the stroke-dasharray based on the percentage
       pathRef.current.style.strokeDasharray = `${(props.percentage / 100) * length} ${length}`;
       pathRef.current.style.strokeDashoffset = 0;
     }
@@ -500,14 +500,11 @@ function Progress24(props) {
         cx={12}
         cy={12}
         r={11.5}
-        stroke="#fff"
-        style={{
-          stroke: siteSettings.soundtrack.playerColor === "light" ? "#fff" : "#000",
-          strokeOpacity: 1,
-        }}
+        stroke={siteSettings.soundtrack.playerColor === "light" ? "#fff" : "#000"}
+        strokeOpacity={1}
       />
     </svg>
-  )
+  );
 }
 
 
