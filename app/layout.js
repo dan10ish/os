@@ -30,6 +30,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <base href={process.env.NEXT_PUBLIC_BASE_PATH || '/'} />
+      </head>
       <body suppressHydrationWarning={true}>
         <div style={{
           position: 'fixed',
