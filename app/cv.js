@@ -47,8 +47,7 @@ function profileSectionToJSONField(section) {
 
 class CVMediaObject {
   constructor(props) {
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-    this.url = basePath + props.url;
+    this.url = props.url;
     this.width = props.width;
     this.height = props.height;
   }
