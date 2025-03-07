@@ -4,10 +4,10 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // This ensures correct asset paths when deployed to a subdomain
-  basePath: '',
   // Disable server-side features since we're doing static export
   trailingSlash: true,
+  // This ensures correct asset paths when deployed to GitHub Pages
+  basePath: '',
 };
 
 export default nextConfig;

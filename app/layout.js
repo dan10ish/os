@@ -10,14 +10,23 @@ import "./Window.css";
 import { ShaderGradient } from './components/ShaderGradient'
 
 export const metadata = {
+  metadataBase: new URL('https://os.danish.bio'),
   title: "Danish",
   description: "Danish's personal site.",
+  openGraph: {
+    title: "Danish",
+    description: "Danish's personal site.",
+    url: 'https://os.danish.bio',
+    siteName: 'Danish',
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning={true}>
         <div style={{
           position: 'fixed',
           top: 0,
