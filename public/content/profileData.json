@@ -1,0 +1,490 @@
+{
+  "general": {
+    "profilePhoto": "/content/media/profilePhoto.jpg",
+    "username": "dan10ish",
+    "displayName": "Danish",
+    "profession": null,
+    "location": null,
+    "pronouns": null,
+    "byline": null,
+    "website": "https://danish.bio",
+    "websiteURL": "https://danish.bio",
+    "about": "My knowledge and area of interest combine robotics, machine learning and computer science.",
+    "status": {
+      "text": null,
+      "emoji": null,
+      "timestamp": null
+    },
+    "sectionOrder": [
+      "Contact",
+      "Work Experience",
+      "Projects",
+      "Side Projects",
+      "Education",
+      "Exhibitions",
+      "Speaking",
+      "Writing",
+      "Awards",
+      "Features",
+      "Volunteering",
+      "Certifications",
+      "Teams"
+    ]
+  },
+  "projects": [
+    {
+      "id": "prJhpCqNxhOR0iLn275E",
+      "year": "2024",
+      "heading": "Code Editor",
+      "url": "https://code.danish.bio",
+      "collaborators": [],
+      "description": "Built a browser-based code editor that runs Python, JavaScript, and C++ code in real-time, featuring support for Python libraries like numpy and matplotlib for data visualization, along with custom error handling and interactive user input capabilities.",
+      "attachments": [
+        {
+          "type": "video",
+          "width": 2856,
+          "height": 1638,
+          "url": "/content/media/Code-Editor.mov"
+        }
+      ],
+      "type": "project",
+      "title": "Code Editor",
+      "company": ""
+    },
+    {
+      "id": "aQbGLzoi3sT6wYZ5ypvz",
+      "year": "2024",
+      "heading": "Robotic Arm Visualizer",
+      "url": "https://danish.bio/RoboticArm/",
+      "collaborators": [],
+      "description": "Created a 3D robotic arm visualization tool with six interactive control points, featuring smooth multi-axis rotations across different arm segments, and a user-friendly camera system for viewing the arm from any angle within a grid environment.",
+      "attachments": [
+        {
+          "type": "video",
+          "width": 2856,
+          "height": 1638,
+          "url": "/content/media/Robotic-Arm-Visualizer.mov"
+        }
+      ],
+      "type": "project",
+      "title": "Robotic Arm Visualizer",
+      "company": ""
+    },
+    {
+      "id": "aR6HRdJX6XcwNX6yxKE9",
+      "year": "2024",
+      "heading": "Pathfinding Visualizer",
+      "url": "https://danish.bio/pathfinding-visualizer/",
+      "collaborators": [],
+      "description": "Built an interactive pathfinding visualization tool featuring multiple algorithms (Dijkstra's, A\\*, BFS, DFS) with optimized performance for a 20x20 grid system, including maze generation capabilities that ensure valid solutions.",
+      "attachments": [
+        {
+          "type": "video",
+          "width": 2856,
+          "height": 1638,
+          "url": "/content/media/Pathfinding-Visualizer.mov"
+        }
+      ],
+      "type": "project",
+      "title": "Pathfinding Visualizer",
+      "company": ""
+    }
+  ],
+  "sideProjects": [
+    {
+      "id": "gQcMz4Kh5027DH8JnSpj",
+      "year": "2024",
+      "heading": "React-three-fiber",
+      "url": null,
+      "collaborators": [],
+      "description": "\n1. [Office](https://dan10ish.github.io/Office/)\n\n2. [Galaxy Generator](https://dan10ish.github.io/Galaxy/)\n\n3. [3-DOF Robotic Arm](https://dan10ish.github.io/RoboticArm/)",
+      "attachments": [
+        {
+          "type": "video",
+          "width": 1136,
+          "height": 1622,
+          "url": "/content/media/React-three-fiber-1.mov"
+        },
+        {
+          "type": "video",
+          "width": 1136,
+          "height": 1622,
+          "url": "/content/media/React-three-fiber-2.mp4"
+        },
+        {
+          "type": "video",
+          "width": 1136,
+          "height": 1622,
+          "url": "/content/media/React-three-fiber-3.mp4"
+        }
+      ],
+      "type": "sideProject",
+      "title": "React-three-fiber",
+      "company": ""
+    },
+    {
+      "id": "2OAbDreCqf8MhjPUenmC",
+      "year": "2023",
+      "heading": "Capstone Project at College",
+      "url": "https://github.com/dan10ish/Capstone.git",
+      "collaborators": [],
+      "description": "Mobile robot remotely operated and capable of detecting, picking and sorting metallic and non-metallic objects",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 7733,
+          "height": 3497,
+          "url": "/content/media/Capstone-Project-at-College-1.png"
+        },
+        {
+          "type": "video",
+          "width": 2160,
+          "height": 3840,
+          "url": "/content/media/Capstone-Project-at-College-2.mp4"
+        },
+        {
+          "type": "video",
+          "width": 1080,
+          "height": 1920,
+          "url": "/content/media/Capstone-Project-at-College-3.mov"
+        },
+        {
+          "type": "video",
+          "width": 1080,
+          "height": 1666,
+          "url": "/content/media/Capstone-Project-at-College-4.mov"
+        },
+        {
+          "type": "image",
+          "width": 3024,
+          "height": 4032,
+          "url": "/content/media/Capstone-Project-at-College-5.jpg"
+        }
+      ],
+      "type": "sideProject",
+      "title": "Capstone Project",
+      "company": "College"
+    }
+  ],
+  "exhibitions": [],
+  "talks": [],
+  "writing": [],
+  "awards": [],
+  "features": [],
+  "workExperience": [
+    {
+      "id": "igLeRDzIaGUZBrLalolV",
+      "year": "2023 — 2024",
+      "heading": "Software Engineer - Robotics at Accelus Robotics",
+      "url": "https://github.com/dan10ish/3DOF-RoboticArm-C.git",
+      "collaborators": [],
+      "description": "* Developed fast and efficient C/C++ control software for a robotic arm, achieving reliable performance with processing times under one millisecond\n\n* Created a motion planning system that generated smooth movement paths and could adjust trajectories in real-time\n\n* Built well-organized software architecture with separate modules for movement calculations and control systems, supported by thorough testing\n\n* Implemented a data monitoring system with CSV logging and visualization tools to track and analyze system performance\n\n* Improved system efficiency by streamlining mathematical operations and calculations",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 1920,
+          "height": 1080,
+          "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-1.png"
+        },
+        {
+          "type": "image",
+          "width": 3104,
+          "height": 1974,
+          "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-2.png"
+        },
+        {
+          "type": "image",
+          "width": 1920,
+          "height": 1080,
+          "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-3.png"
+        },
+        {
+          "type": "image",
+          "width": 1920,
+          "height": 1080,
+          "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-4.png"
+        }
+      ],
+      "type": "workExperience",
+      "title": "Software Engineer - Robotics",
+      "company": "Accelus Robotics",
+      "location": "Mumbai"
+    }
+  ],
+  "volunteering": [],
+  "education": [
+    {
+      "id": "7hBhs7XUali3RkCPlm0z",
+      "year": "2020 — 2024",
+      "heading": "Bachelor of Technology in Mechatronics Engineering at MPSTME",
+      "url": "https://engineering.nmims.edu/",
+      "collaborators": [],
+      "description": "Relevant Coursework: Artificial Intelligence & Machine Learning, Data Structures & Algorithms, Industrial Robotics, Graph Theory, Probability & Statistics",
+      "attachments": [],
+      "type": "education",
+      "degree": "Bachelor of Technology in Mechatronics Engineering",
+      "school": "MPSTME",
+      "location": "Mumbai"
+    }
+  ],
+  "certifications": [],
+  "contact": [
+    {
+      "id": "P28dVY8iDRTlUlI3gltw",
+      "platform": "X",
+      "handle": "dan10ish",
+      "url": "https://x.com/dan10ish"
+    },
+    {
+      "id": "dpNNg5aFgMISAQhE9xQy",
+      "platform": "GitHub",
+      "handle": "dan10ish",
+      "url": "https://github.com/dan10ish"
+    },
+    {
+      "id": "qA33vFlITedxaFlpl6Be",
+      "platform": "Instagram",
+      "handle": "dan10ish",
+      "url": "https://instagram.com/dan10ish"
+    },
+    {
+      "id": "AZsSogRhW7VAoHuLtvFB",
+      "platform": "Email",
+      "handle": "aansaridan@gmail.com",
+      "url": "mailto:aansaridan@gmail.com"
+    }
+  ],
+  "allCollections": [
+    {
+      "name": "Contact",
+      "items": [
+        {
+          "id": "P28dVY8iDRTlUlI3gltw",
+          "platform": "X",
+          "handle": "dan10ish",
+          "url": "https://x.com/dan10ish"
+        },
+        {
+          "id": "dpNNg5aFgMISAQhE9xQy",
+          "platform": "GitHub",
+          "handle": "dan10ish",
+          "url": "https://github.com/dan10ish"
+        },
+        {
+          "id": "qA33vFlITedxaFlpl6Be",
+          "platform": "Instagram",
+          "handle": "dan10ish",
+          "url": "https://instagram.com/dan10ish"
+        },
+        {
+          "id": "AZsSogRhW7VAoHuLtvFB",
+          "platform": "Email",
+          "handle": "aansaridan@gmail.com",
+          "url": "mailto:aansaridan@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Work Experience",
+      "items": [
+        {
+          "id": "igLeRDzIaGUZBrLalolV",
+          "year": "2023 — 2024",
+          "heading": "Software Engineer - Robotics at Accelus Robotics",
+          "url": "https://github.com/dan10ish/3DOF-RoboticArm-C.git",
+          "collaborators": [],
+          "description": "* Developed fast and efficient C/C++ control software for a robotic arm, achieving reliable performance with processing times under one millisecond\n\n* Created a motion planning system that generated smooth movement paths and could adjust trajectories in real-time\n\n* Built well-organized software architecture with separate modules for movement calculations and control systems, supported by thorough testing\n\n* Implemented a data monitoring system with CSV logging and visualization tools to track and analyze system performance\n\n* Improved system efficiency by streamlining mathematical operations and calculations",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 1920,
+              "height": 1080,
+              "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-1.png"
+            },
+            {
+              "type": "image",
+              "width": 3104,
+              "height": 1974,
+              "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-2.png"
+            },
+            {
+              "type": "image",
+              "width": 1920,
+              "height": 1080,
+              "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-3.png"
+            },
+            {
+              "type": "image",
+              "width": 1920,
+              "height": 1080,
+              "url": "/content/media/Software-Engineer-Robotics-at-Accelus-Robotics-4.png"
+            }
+          ],
+          "type": "workExperience",
+          "title": "Software Engineer - Robotics",
+          "company": "Accelus Robotics",
+          "location": "Mumbai"
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "items": [
+        {
+          "id": "prJhpCqNxhOR0iLn275E",
+          "year": "2024",
+          "heading": "Code Editor",
+          "url": "https://code.danish.bio",
+          "collaborators": [],
+          "description": "Built a browser-based code editor that runs Python, JavaScript, and C++ code in real-time, featuring support for Python libraries like numpy and matplotlib for data visualization, along with custom error handling and interactive user input capabilities.",
+          "attachments": [
+            {
+              "type": "video",
+              "width": 2856,
+              "height": 1638,
+              "url": "/content/media/Code-Editor.mov"
+            }
+          ],
+          "type": "project",
+          "title": "Code Editor",
+          "company": ""
+        },
+        {
+          "id": "aQbGLzoi3sT6wYZ5ypvz",
+          "year": "2024",
+          "heading": "Robotic Arm Visualizer",
+          "url": "https://danish.bio/RoboticArm/",
+          "collaborators": [],
+          "description": "Created a 3D robotic arm visualization tool with six interactive control points, featuring smooth multi-axis rotations across different arm segments, and a user-friendly camera system for viewing the arm from any angle within a grid environment.",
+          "attachments": [
+            {
+              "type": "video",
+              "width": 2856,
+              "height": 1638,
+              "url": "/content/media/Robotic-Arm-Visualizer.mov"
+            }
+          ],
+          "type": "project",
+          "title": "Robotic Arm Visualizer",
+          "company": ""
+        },
+        {
+          "id": "aR6HRdJX6XcwNX6yxKE9",
+          "year": "2024",
+          "heading": "Pathfinding Visualizer",
+          "url": "https://danish.bio/pathfinding-visualizer/",
+          "collaborators": [],
+          "description": "Built an interactive pathfinding visualization tool featuring multiple algorithms (Dijkstra's, A\\*, BFS, DFS) with optimized performance for a 20x20 grid system, including maze generation capabilities that ensure valid solutions.",
+          "attachments": [
+            {
+              "type": "video",
+              "width": 2856,
+              "height": 1638,
+              "url": "/content/media/Pathfinding-Visualizer.mov"
+            }
+          ],
+          "type": "project",
+          "title": "Pathfinding Visualizer",
+          "company": ""
+        }
+      ]
+    },
+    {
+      "name": "Side Projects",
+      "items": [
+        {
+          "id": "gQcMz4Kh5027DH8JnSpj",
+          "year": "2024",
+          "heading": "React-three-fiber",
+          "url": null,
+          "collaborators": [],
+          "description": "\n1. [Office](https://dan10ish.github.io/Office/)\n\n2. [Galaxy Generator](https://dan10ish.github.io/Galaxy/)\n\n3. [3-DOF Robotic Arm](https://dan10ish.github.io/RoboticArm/)",
+          "attachments": [
+            {
+              "type": "video",
+              "width": 1136,
+              "height": 1622,
+              "url": "/content/media/React-three-fiber-1.mov"
+            },
+            {
+              "type": "video",
+              "width": 1136,
+              "height": 1622,
+              "url": "/content/media/React-three-fiber-2.mp4"
+            },
+            {
+              "type": "video",
+              "width": 1136,
+              "height": 1622,
+              "url": "/content/media/React-three-fiber-3.mp4"
+            }
+          ],
+          "type": "sideProject",
+          "title": "React-three-fiber",
+          "company": ""
+        },
+        {
+          "id": "2OAbDreCqf8MhjPUenmC",
+          "year": "2023",
+          "heading": "Capstone Project at College",
+          "url": "https://github.com/dan10ish/Capstone.git",
+          "collaborators": [],
+          "description": "Mobile robot remotely operated and capable of detecting, picking and sorting metallic and non-metallic objects",
+          "attachments": [
+            {
+              "type": "image",
+              "width": 7733,
+              "height": 3497,
+              "url": "/content/media/Capstone-Project-at-College-1.png"
+            },
+            {
+              "type": "video",
+              "width": 2160,
+              "height": 3840,
+              "url": "/content/media/Capstone-Project-at-College-2.mp4"
+            },
+            {
+              "type": "video",
+              "width": 1080,
+              "height": 1920,
+              "url": "/content/media/Capstone-Project-at-College-3.mov"
+            },
+            {
+              "type": "video",
+              "width": 1080,
+              "height": 1666,
+              "url": "/content/media/Capstone-Project-at-College-4.mov"
+            },
+            {
+              "type": "image",
+              "width": 3024,
+              "height": 4032,
+              "url": "/content/media/Capstone-Project-at-College-5.jpg"
+            }
+          ],
+          "type": "sideProject",
+          "title": "Capstone Project",
+          "company": "College"
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "items": [
+        {
+          "id": "7hBhs7XUali3RkCPlm0z",
+          "year": "2020 — 2024",
+          "heading": "Bachelor of Technology in Mechatronics Engineering at MPSTME",
+          "url": "https://engineering.nmims.edu/",
+          "collaborators": [],
+          "description": "Relevant Coursework: Artificial Intelligence & Machine Learning, Data Structures & Algorithms, Industrial Robotics, Graph Theory, Probability & Statistics",
+          "attachments": [],
+          "type": "education",
+          "degree": "Bachelor of Technology in Mechatronics Engineering",
+          "school": "MPSTME",
+          "location": "Mumbai"
+        }
+      ]
+    }
+  ]
+}
