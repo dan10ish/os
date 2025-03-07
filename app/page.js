@@ -238,7 +238,7 @@ function Icon(props) {
   return (
     <div
       onDoubleClick={props.open}
-      tabindex={0}
+      tabIndex={0}
       className="desktopItem">
       <div className="icon">
         {props.icon ? props.icon : null}
