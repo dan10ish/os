@@ -7,7 +7,11 @@ import "./Player.css";
 import "./Sticky.css";
 import "./Styles.css";
 import "./Window.css";
-import { ShaderGradient } from './components/ShaderGradient'
+import dynamic from 'next/dynamic';
+
+const ShaderGradientWrapper = dynamic(() => import('./components/ShaderGradient'), {
+  ssr: false
+});
 
 export const metadata = {
   metadataBase: new URL('https://os.danish.bio'),
@@ -35,7 +39,7 @@ export default function RootLayout({ children }) {
           height: '100vh',
           zIndex: -1
         }}>
-          <ShaderGradient />
+          <ShaderGradientWrapper />
         </div>
         <div style={{
           position: 'relative',

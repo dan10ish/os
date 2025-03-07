@@ -6,7 +6,7 @@ import {
 } from "@shadergradient/react";
 import * as reactSpring from "@react-spring/three";
 
-export function ShaderGradient() {
+export default function ShaderGradient() {
   return (
     <div
       style={{
